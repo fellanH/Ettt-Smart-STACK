@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/stack-interface.css" rel="stylesheet" type="text/css" media="all">
         <link href="css/socicon.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/flickity.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/stack-interface.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
@@ -59,8 +60,27 @@
         <div class="main-container">
 
 
+                <section class="space--xxs">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h1>Boende</h1>
+                                    <ol class="breadcrumbs">
+                                        <li>
+                                            <a href="#">Startsida</a>
+                                        </li>
+                                        <li>Boende</li>
+                                    </ol>
+                                    <hr>
+                                </div>
+                            </div>
+                            <!--end of row-->
+                        </div>
+                        <!--end of container-->
+                    </section>
+        
             
-            <section class="space--xxs">
+            <!-- <section class="space--xxs">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
@@ -73,39 +93,30 @@
                             </div>
 
                 </div>
-            </section>
+            </section> -->
             
 
 
             <!-- ===== List Items ===== -->
-
-
-                <section class="switchable feature-large switchable--switch space--xxs">
-                        <div class="container">
-                            <div class="row justify-content-around">
-                                <div class="col-md-5"> <img alt="Image" class="border--round box-shadow-wide" src="img/landing-11.jpg"> </div>
-                                <div class="col-md-6 col-lg-5">
-                                    <div class="switchable__text">
-                                        <h2>Perfect for bootstrapped startups</h2>
-                                        <p class="lead"> Launching an attractive and scalable website quickly and affordably is important for modern startups</p> <a href="#">Learn More »</a> </div>
-                                </div>
+            <section class="space--xxs">
+                    <div class="container">
+                        <div class="masonry">
                             </div>
+                            <div class="masonry__container row masonry--active">
+                                <div class="masonry__item col-md-6 text-center filter-print" data-masonry-filter="Print">
+                                    <div class="project-thumb">
+                                        <a href="sollentuna/hotel.html"> <img alt="Image" class="border--round" src="img/work-6.jpg"> </a>
+                                        <h4>Ett Smart Sollentuna</h4> <span>Hotell</span> </div>
+                                </div>
+                                <div class="masonry__item col-md-6 text-center filter-print" data-masonry-filter="Print">
+                                    <div class="project-thumb">
+                                        <a href="kista/hotel.html"> <img alt="Image" class="border--round" src="img/work-2.jpg"> </a>
+                                        <h4>STHLM Hotel Kista</h4> <span>Hotell & Lägenheter</span> </div>
+                                </div>
+                            
                         </div>
-                    </section>
-
-                    <section class="switchable feature-large switchable--switch space--xxs">
-                            <div class="container">
-                                <div class="row justify-content-around">
-                                    <div class="col-md-5"> <img alt="Image" class="border--round box-shadow-wide" src="img/landing-11.jpg"> </div>
-                                    <div class="col-md-6 col-lg-5">
-                                        <div class="switchable__text">
-                                            <h2>Perfect for bootstrapped startups</h2>
-                                            <p class="lead"> Launching an attractive and scalable website quickly and affordably is important for modern startups</p> <a href="#">Learn More »</a> </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-
+                    </div>
+                </section>
 
 
             <section class="unpad">
@@ -139,6 +150,7 @@
         </div>
         <script src="js/jquery-3.1.1.min.js"></script>
         <script src="js/parallax.js"></script>
+        <!-- <script src="js/flickity.min.js"></script> -->
         <script src="js/smooth-scroll.min.js"></script>
         <script src="js/scripts.js"></script>
 
