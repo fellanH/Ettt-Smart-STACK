@@ -1,5 +1,6 @@
 /*! Place your custom styles here */
 
+<<<<<<< HEAD
 .bg--img-1 {
     background-size: cover !important;
     background-image: url(img/hotel-1.jpg) !important;
@@ -9,3 +10,5 @@
     background-size: cover !important;
     background-image: url(img/hotel-2.jpg) !important;
 }
+=======
+>>>>>>> 25b8cd0a60b1d040d7e0b3cf0dc96dc6cb785ebc
