@@ -1,1 +1,11 @@
 /*! Place your custom styles here */
+
+.bg--img-1 {
+    background-size: cover !important;
+    background-image: url(img/hotel-1.jpg) !important;
+}
+
+.bg--img-2 {
+    background-size: cover !important;
+    background-image: url(img/hotel-2.jpg) !important;
+}
