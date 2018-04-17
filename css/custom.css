@@ -1,4 +1,6 @@
-/*! Place your custom styles here */
+/*! ---------------------------------------------------  / 
+                        Index section Hero         
+/------------------------------------------------------ */
 
 .bg--img-1 {
     background-size: cover !important;
@@ -110,6 +112,10 @@
     color: #FFF;
     z-index: 99 !important;
 }
+
+/*! ---------------------------------------------------  / 
+                Index section Features         
+/------------------------------------------------------ */
 
 .features-custom-padding {
     padding-top: 32px !important;
