@@ -8,6 +8,8 @@
         <link href="css/socicon.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/iconsmind.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/flickity.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/stack-interface.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
@@ -61,29 +63,35 @@
                 <div class="background-image-holder"> <img alt="background" src="img/landing-24.jpg"> </div>
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-9 col-lg-7">
-                            <h1>ETT SMART <br> Hotell &amp; Lägenheter</h1>
-                            <p class="lead">Hitta lugnet i en modern och öppen lägenhet och ladda batterierna efter en lång arbetsdag. <br></p>
+                        <div class="col-md-12 col-lg-12 hero-text-box">
+                            <img class="logo logo-light" alt="logo" src="img/logo_light.svg">
+                            <h2>- Hotell &amp; Lägenheter -</h2>
+                            <!-- <p class="lead">Känn dig som hemma<br></p> -->
                             <!-- <a class="btn btn--primary type--uppercase" href="#"> <span class="btn__text">Boenden</span> </a> -->
                         </div>
                     </div>
                     <div class="row boende-boxes">
-                        <div class="col-md-6">
-                            <div class="feature feature-1 boxed boxed--border bg--img-1">
-                                <h5>ETT SMART - Sollentuna</h5>
-                                <p> Ideal for large and small organisations </p> <a href="#">
-                        Learn More
-                    </a> </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="feature feature-1 boxed boxed--border bg--img-2">
-                                <h5>ETT SMART - Kista</h5>
-                                <p> A highly adaptable look that's simple </p> <a href="#">
-                        Learn More
-                    </a> 
-                    
+                        <div class="col-md-6" >
+                            <div class="feature feature-1 boxed boxed--border bg--img-1" onclick="window.location='http://ettsmart.se/';">
+                                <div class="bg--overlay-1"></div> 
+                                <h5 class="hero-box-title">SOLLENTUNA</h5>
+                                <p class="hero-box-desc"> Mysigt hotell intill sollentuna centrum.</p> 
+                                <p class="hero-box-desc">Klicka för mer info </p>
+                        
                     </div>
                         </div>
+                        
+                        <div class="col-md-6">
+                            <div class="feature feature-1 boxed boxed--border bg--img-2" onclick="window.location='http://www.sthlmhotel.se/';">
+                                <div class="bg--overlay-2"  ></div>
+                                <h5 class="hero-box-title">KISTA</h5>
+                                <p class="hero-box-desc"> Lägenhetshotell nära kista galleria</p>
+                                <p class="hero-box-desc">Klicka för mer info </p>
+                        
+                    
+                    </div>
+                  </div>
+                    
                     </div>
                 </div>
             </section>
@@ -96,7 +104,7 @@
                                 <p class="lead">Hämta energi och koppla av. Vakna utvilad varje morgon i en av våra sköna sängar och börja dagen med en uppfriskande dush i ett fräscht badrum. Känn dig som hemma i ett stort och öppet rum fyllt med naturligt solljus.&nbsp;<br><br>Njut av närheten till Stockholm och Kista för alla dina möten och ärenden. Läs nyheter eller streama film med hotellets super snabba Wi-Fi helt gratis. </p>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 features-custom-padding">
                             <div class="boxed boxed--lg boxed--border">
                                 <div class="feature feature-2"> <i class="icon color--primary icon-Wifi"></i>
                                     <div class="feature__body">
@@ -121,49 +129,41 @@
                     </div>
                 </div>
             </section>
-            <section>
-                <div class="masonry masonry--gapless">
-                    <div class="masonry-filter-container text-center row justify-content-center align-items-center"> <span>Category:</span>
-                        <div class="masonry-filter-holder">
-                            <div class="masonry__filters" data-filter-all-text="All Categories">
-                                <ul>
-                                    <li class="active" data-masonry-filter="*">All Categories</li>
-                                    <li data-masonry-filter="design">Design</li>
-                                    <li data-masonry-filter="marketing">Marketing</li>
-                                </ul>
+                <section class=" ">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <div class="slider slider--columns" data-arrows="true" data-paging="true">
+                                    <ul class="slides">
+                                        <li class="col-md-4 col-6">
+                                            <a href="img/work-1-full.jpg" data-lightbox="Gallery 1">
+                                                <img alt="Image" src="img/work-1.jpg" />
+                                            </a>
+                                        </li>
+                                        <li class="col-md-4 col-6">
+                                            <a href="img/work-2-full.jpg" data-lightbox="Gallery 1">
+                                                <img alt="Image" src="img/work-2.jpg" />
+                                            </a>
+                                        </li>
+                                        <li class="col-md-4 col-6">
+                                            <a href="img/work-3-full.jpg" data-lightbox="Gallery 1">
+                                                <img alt="Image" src="img/work-3.jpg" />
+                                            </a>
+                                        </li>
+                                        <li class="col-md-4 col-6">
+                                            <a href="img/work-4-full.jpg" data-lightbox="Gallery 1">
+                                                <img alt="Image" src="img/work-4.jpg" />
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
+                            <!--end of col-->
                         </div>
+                        <!--end row-->
                     </div>
-                    <div class="masonry__container bg--secondary masonry--active">
-                        <div class="col-md-4 col-12 masonry__item filter-marketing" data-masonry-filter="Marketing">
-                            <div class="project-thumb hover-element height-40">
-                                <a href="#">
-                                    <div class="hover-element__initial">
-                                        <div class="background-image-holder"> <img alt="background" src="img/work-6.jpg"> </div>
-                                    </div>
-                                    <div class="hover-element__reveal" data-overlay="9">
-                                        <div class="project-thumb__title">
-                                            <h5>Nike Active</h5> <span>Digital Marketing</span> </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-12 masonry__item filter-design" data-masonry-filter="Design">
-                            <div class="project-thumb hover-element height-40">
-                                <a href="#">
-                                    <div class="hover-element__initial">
-                                        <div class="background-image-holder"> <img alt="background" src="img/work-1.jpg"> </div>
-                                    </div>
-                                    <div class="hover-element__reveal" data-overlay="9">
-                                        <div class="project-thumb__title">
-                                            <h5>Unvest Capital</h5> <span>Brand Collateral</span> </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+                    <!--end of container-->
+                </section>
             <section>
                 <div class="container">
                     <div class="row">
@@ -257,6 +257,8 @@
         </div>
         <script src="js/jquery-3.1.1.min.js"></script>
         <script src="js/parallax.js"></script>
+        <script src="js/flickity.min.js"></script>
+        <script src="js/lightbox.min.js"></script>
         <script src="js/isotope.min.js"></script>
         <script src="js/smooth-scroll.min.js"></script>
         <script src="js/scripts.js"></script>

@@ -5,6 +5,8 @@
     background-image: url(img/hotel-1.jpg) !important;
     -webkit-box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
     box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
+
+    transition: 0.3s;
 }
 
 .bg--img-1:hover {
@@ -12,10 +14,11 @@
     transform: translateY(-2px);
     -webkit-box-shadow: 0 18px 35px rgba(50,50,93,.1), 0 8px 15px rgba(0,0,0,.07);
     box-shadow: 0 18px 35px rgba(50,50,93,.1), 0 8px 15px rgba(0,0,0,.07);
+    cursor: pointer;
 }
 
 .bg--overlay-1 {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color:rgba(0, 0, 0, 0.39);
     position: absolute;
     top: 0;
     left: 0;
@@ -23,11 +26,20 @@
     height: 100%;
 }
 
+.bg--img-1:hover > .bg--overlay-1 {
+    background-color: rgba(0, 0, 0, 0.63);
+        
+    transition: 0.3s;
+
+}
+
 .bg--img-2 {
     background-size: cover !important;
     background-image: url(img/hotel-2.jpg) !important;
     -webkit-box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
     box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
+
+    transition: 0.3s;
 }
 
 .bg--img-2:hover {
@@ -35,16 +47,39 @@
     transform: translateY(-2px);
     -webkit-box-shadow: 0 18px 35px rgba(50,50,93,.1), 0 8px 15px rgba(0,0,0,.07);
     box-shadow: 0 18px 35px rgba(50,50,93,.1), 0 8px 15px rgba(0,0,0,.07);
+    cursor:pointer;
 }
+
+.bg--img-2:hover > .bg--overlay-2 {
+    background-color: rgba(0, 0, 0, 0.74);
+
+}
+
+.bg--overlay-2 {
+    background-color: rgba(0, 0, 0, 0.397);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+        
+    transition: 0.3s;
+}
+
 
 .boende-boxes {
     position: absolute;
     width: 100%;
+    margin-top: 3.42857143em !important;
 }
 
 .cover-features.space--custom {
-    padding-bottom: 19.71428571em;
-    padding-top: 12.42857143em !important;
+    padding-bottom: 11.71428571em;
+    padding-top: 9.42857143em !important;
+}
+
+.cover-features .row:nth-child(2) {
+    margin-top: 9.14285714em;
 }
 
 .feature-1 {
@@ -53,4 +88,29 @@
 
 .custom-padding {
     padding-top: 12.42857143em !important;
+}
+
+.hero-title {
+    font-weight: 800;
+    font-size: 100px;
+    letter-spacing: 2px;
+}
+
+.hero-text-box{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.hero-box-title {
+    font-size: 25px
+}
+
+.hero-box-desc {
+    font-size: 14px;
+    color: #FFF;
+    z-index: 99 !important;
+}
+
+.features-custom-padding {
+    padding-top: 32px !important;
 }

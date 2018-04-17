@@ -585,9 +585,9 @@ img {
   left: 0;
   z-index: 1;
 }
-[data-overlay] *:not(.container):not(.background-image-holder) {
+/* [data-overlay] *:not(.container):not(.background-image-holder) {
   z-index: 2;
-}
+} */
 [data-overlay].image--light:before {
   background: #fff;
 }
